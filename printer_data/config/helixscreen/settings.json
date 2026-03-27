@@ -3,7 +3,7 @@
   "appearance": {
     "toolhead_style": 0
   },
-  "config_version": 8,
+  "config_version": 9,
   "dark_mode": true,
   "display": {
     "bed_mesh_render_mode": 0,
@@ -11,7 +11,8 @@
     "dim_sec": 300,
     "drm_device": "",
     "gcode_render_mode": 0,
-    "sleep_sec": 600,
+    "screensaver_type": 0,
+    "sleep_sec": 1800,
     "theme": "dracula"
   },
   "gcode_viewer": {
@@ -40,6 +41,17 @@
   "log_path": "/tmp/helixscreen.log",
   "motion": {
     "jog_mode": 1
+  },
+  "print_start_history": {
+    "entries": [
+      {
+        "phases": {
+          "4": 10
+        },
+        "timestamp": 1774572898,
+        "total": 10
+      }
+    ]
   },
   "printer": {
     "leds": {
@@ -103,7 +115,7 @@
             "temperature_sensor btt_eddy_mcu",
             "temperature_sensor btt_eddy"
           ],
-          "timestamp": "2026-03-26T20:58:27Z"
+          "timestamp": "2026-03-27T00:40:36Z"
         },
         "optional": []
       },
