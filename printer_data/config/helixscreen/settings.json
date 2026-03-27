@@ -115,7 +115,7 @@
             "temperature_sensor btt_eddy_mcu",
             "temperature_sensor btt_eddy"
           ],
-          "timestamp": "2026-03-27T00:40:36Z"
+          "timestamp": "2026-03-27T18:10:56Z"
         },
         "optional": []
       },
@@ -245,7 +245,7 @@
                 {
                   "col": 6,
                   "colspan": 1,
-                  "enabled": true,
+                  "enabled": false,
                   "id": "led",
                   "row": 4,
                   "rowspan": 1
@@ -393,6 +393,14 @@
                   "id": "fan_stack:1",
                   "row": 3,
                   "rowspan": 1
+                },
+                {
+                  "col": -1,
+                  "colspan": 1,
+                  "enabled": false,
+                  "id": "active_spool",
+                  "row": -1,
+                  "rowspan": 1
                 }
               ]
             }
@@ -408,6 +416,7 @@
     },
     "show_printer_switcher": false
   },
+  "telemetry_enabled": true,
   "theme": {
     "preset": 0
   },
@@ -417,6 +426,9 @@
         "rows": 5
       }
     }
+  },
+  "update": {
+    "dismissed_version": "0.99.5"
   },
   "wizard_completed": true
 }
