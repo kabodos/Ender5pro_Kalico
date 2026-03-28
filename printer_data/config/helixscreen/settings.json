@@ -115,7 +115,7 @@
             "temperature_sensor btt_eddy_mcu",
             "temperature_sensor btt_eddy"
           ],
-          "timestamp": "2026-03-27T18:10:56Z"
+          "timestamp": "2026-03-27T18:21:26Z"
         },
         "optional": []
       },
@@ -245,7 +245,7 @@
                 {
                   "col": 6,
                   "colspan": 1,
-                  "enabled": false,
+                  "enabled": true,
                   "id": "led",
                   "row": 4,
                   "rowspan": 1
