@@ -3,7 +3,7 @@
   "appearance": {
     "toolhead_style": 0
   },
-  "config_version": 9,
+  "config_version": 10,
   "dark_mode": true,
   "display": {
     "bed_mesh_render_mode": 0,
@@ -115,7 +115,7 @@
             "temperature_sensor btt_eddy_mcu",
             "temperature_sensor btt_eddy"
           ],
-          "timestamp": "2026-04-03T07:50:11Z"
+          "timestamp": "2026-04-03T07:51:52Z"
         },
         "optional": []
       },
@@ -205,8 +205,12 @@
                 {
                   "col": -1,
                   "colspan": 1,
+                  "config": {
+                    "device": "__all__",
+                    "icon": "power_cycle"
+                  },
                   "enabled": false,
-                  "id": "power",
+                  "id": "power_device:1",
                   "row": -1,
                   "rowspan": 1
                 },
@@ -407,6 +411,7 @@
           ]
         }
       },
+      "printer_name": "Creality Ender 5",
       "temp_sensors": {
         "bed": "heater_bed",
         "hotend": "extruder"
