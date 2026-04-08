@@ -115,7 +115,7 @@
             "temperature_sensor btt_eddy_mcu",
             "temperature_sensor btt_eddy"
           ],
-          "timestamp": "2026-04-03T07:51:52Z"
+          "timestamp": "2026-04-08T19:31:03Z"
         },
         "optional": []
       },
@@ -405,6 +405,54 @@
                   "id": "active_spool",
                   "row": -1,
                   "rowspan": 1
+                },
+                {
+                  "col": -1,
+                  "colspan": 1,
+                  "enabled": false,
+                  "id": "power_device",
+                  "row": -1,
+                  "rowspan": 1
+                },
+                {
+                  "col": 7,
+                  "colspan": 1,
+                  "enabled": true,
+                  "id": "fan_stack",
+                  "row": 3,
+                  "rowspan": 1
+                },
+                {
+                  "col": -1,
+                  "colspan": 1,
+                  "enabled": false,
+                  "id": "fan",
+                  "row": -1,
+                  "rowspan": 1
+                },
+                {
+                  "col": -1,
+                  "colspan": 1,
+                  "enabled": false,
+                  "id": "thermistor",
+                  "row": -1,
+                  "rowspan": 1
+                },
+                {
+                  "col": -1,
+                  "colspan": 2,
+                  "enabled": false,
+                  "id": "temp_graph",
+                  "row": -1,
+                  "rowspan": 2
+                },
+                {
+                  "col": -1,
+                  "colspan": 1,
+                  "enabled": false,
+                  "id": "favorite_macro",
+                  "row": -1,
+                  "rowspan": 1
                 }
               ]
             }
@@ -412,6 +460,9 @@
         }
       },
       "printer_name": "Creality Ender 5",
+      "probe_sensors": {
+        "sensors": null
+      },
       "temp_sensors": {
         "bed": "heater_bed",
         "hotend": "extruder"
