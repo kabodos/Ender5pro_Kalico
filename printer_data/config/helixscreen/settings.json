@@ -3,7 +3,7 @@
   "appearance": {
     "toolhead_style": 0
   },
-  "config_version": 10,
+  "config_version": 11,
   "dark_mode": true,
   "display": {
     "bed_mesh_render_mode": 0,
@@ -13,7 +13,7 @@
     "gcode_render_mode": 0,
     "screensaver_type": 0,
     "sleep_sec": 1800,
-    "theme": "dracula"
+    "theme": "material-design"
   },
   "gcode_viewer": {
     "shading_model": "phong",
@@ -45,16 +45,12 @@
   "print_start_history": {
     "entries": [
       {
-        "phases": {
-          "4": 10
-        },
+        "phases": {},
         "timestamp": 1774572898,
         "total": 10
       },
       {
-        "phases": {
-          "4": 175
-        },
+        "phases": {},
         "temp_bucket": 200,
         "timestamp": 1775677302,
         "total": 175
@@ -103,7 +99,8 @@
           "extruder",
           "fan",
           "heater_fan heatbreak_cooling_fan",
-          "neopixel luces_cabezal"
+          "neopixel luces_cabezal",
+          "heater_fan controller_fan"
         ],
         "last_snapshot": {
           "fans": [
@@ -123,7 +120,7 @@
             "temperature_sensor btt_eddy_mcu",
             "temperature_sensor btt_eddy"
           ],
-          "timestamp": "2026-04-08T19:31:43Z"
+          "timestamp": "2026-04-10T01:12:58Z"
         },
         "optional": []
       },
