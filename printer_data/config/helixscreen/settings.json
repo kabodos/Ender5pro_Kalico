@@ -120,7 +120,7 @@
             "temperature_sensor btt_eddy_mcu",
             "temperature_sensor btt_eddy"
           ],
-          "timestamp": "2026-04-10T01:12:58Z"
+          "timestamp": "2026-04-11T18:57:12Z"
         },
         "optional": []
       },
@@ -141,6 +141,7 @@
         ],
         "last_brightness": 100,
         "last_color": "#FFFFFF",
+        "last_white": null,
         "led_on_at_start": false,
         "macro_devices": [],
         "selected": [],
