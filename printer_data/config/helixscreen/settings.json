@@ -120,7 +120,7 @@
             "temperature_sensor btt_eddy_mcu",
             "temperature_sensor btt_eddy"
           ],
-          "timestamp": "2026-04-21T00:10:57Z"
+          "timestamp": "2026-04-21T21:52:20Z"
         },
         "optional": []
       },
@@ -457,6 +457,14 @@
                   "colspan": 1,
                   "enabled": false,
                   "id": "favorite_macro",
+                  "row": -1,
+                  "rowspan": 1
+                },
+                {
+                  "col": -1,
+                  "colspan": 1,
+                  "enabled": false,
+                  "id": "motion",
                   "row": -1,
                   "rowspan": 1
                 }
