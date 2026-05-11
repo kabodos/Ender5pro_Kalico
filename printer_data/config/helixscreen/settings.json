@@ -3,7 +3,7 @@
   "appearance": {
     "toolhead_style": 0
   },
-  "config_version": 14,
+  "config_version": 16,
   "dark_mode": true,
   "display": {
     "bed_mesh_render_mode": 0,
@@ -120,7 +120,7 @@
             "temperature_sensor btt_eddy_mcu",
             "temperature_sensor btt_eddy"
           ],
-          "timestamp": "2026-04-27T18:42:52Z"
+          "timestamp": "2026-05-02T23:53:59Z"
         },
         "optional": []
       },
