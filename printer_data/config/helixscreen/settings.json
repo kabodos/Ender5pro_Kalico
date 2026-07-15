@@ -105,7 +105,8 @@
           "fan",
           "heater_fan heatbreak_cooling_fan",
           "neopixel luces_cabezal",
-          "heater_fan controller_fan"
+          "heater_fan controller_fan",
+          "filament_switch_sensor runout"
         ],
         "last_snapshot": {
           "fans": [
@@ -113,7 +114,9 @@
             "heater_fan controller_fan",
             "fan"
           ],
-          "filament_sensors": [],
+          "filament_sensors": [
+            "filament_switch_sensor runout"
+          ],
           "heaters": [
             "heater_bed",
             "extruder"
@@ -125,7 +128,7 @@
             "temperature_sensor btt_eddy_mcu",
             "temperature_sensor btt_eddy"
           ],
-          "timestamp": "2026-07-14T18:27:05Z"
+          "timestamp": "2026-07-15T23:25:31Z"
         },
         "optional": []
       },
