@@ -12,6 +12,7 @@
     "drm_device": "",
     "gcode_render_mode": 0,
     "gpu_3d_blocked": false,
+    "gpu_blur_blocked": false,
     "screensaver_type": 0,
     "sleep_sec": 1800,
     "theme": "material-design"
@@ -128,7 +129,7 @@
             "temperature_sensor btt_eddy_mcu",
             "temperature_sensor btt_eddy"
           ],
-          "timestamp": "2026-07-16T07:39:55Z"
+          "timestamp": "2026-07-17T07:45:35Z"
         },
         "optional": []
       },
