@@ -3,7 +3,7 @@
   "appearance": {
     "toolhead_style": 0
   },
-  "config_version": 19,
+  "config_version": 20,
   "dark_mode": true,
   "display": {
     "bed_mesh_render_mode": 0,
@@ -38,12 +38,6 @@
     "touch_device": ""
   },
   "language": "en",
-  "led": {
-    "auto_state": {
-      "enabled": null
-    },
-    "selected_strips": null
-  },
   "log_path": "/tmp/helixscreen.log",
   "motion": {
     "jog_mode": 1
@@ -62,11 +56,6 @@
         "total": 175
       }
     ]
-  },
-  "printer": {
-    "leds": {
-      "startup_brightness": null
-    }
   },
   "printers": {
     "default": {
@@ -96,9 +85,7 @@
         "hotend": "heater_fan heatbreak_cooling_fan",
         "part": "fan"
       },
-      "filament_sensors": {
-        "sensors": null
-      },
+      "filament_sensors": {},
       "hardware": {
         "expected": [
           "heater_bed",
@@ -129,7 +116,7 @@
             "temperature_sensor btt_eddy_mcu",
             "temperature_sensor btt_eddy"
           ],
-          "timestamp": "2026-07-26T04:44:07Z"
+          "timestamp": "2026-07-27T02:26:07Z"
         },
         "optional": []
       },
@@ -138,9 +125,7 @@
         "hotend": "extruder"
       },
       "leds": {
-        "auto_state": {
-          "mappings": null
-        },
+        "auto_state": {},
         "color_presets": [
           "#FFFFFF",
           "#FFD700",
@@ -153,7 +138,6 @@
         ],
         "last_brightness": 100,
         "last_color": "#FFFFFF",
-        "last_white": null,
         "led_on_at_start": false,
         "macro_devices": [],
         "selected": [],
@@ -486,9 +470,7 @@
         }
       },
       "printer_name": "Creality Ender 5",
-      "probe_sensors": {
-        "sensors": null
-      },
+      "probe_sensors": {},
       "temp_sensors": {
         "bed": "heater_bed",
         "hotend": "extruder"
