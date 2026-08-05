@@ -1,9 +1,6 @@
 {
   "active_printer_id": "default",
-  "appearance": {
-    "toolhead_style": 0
-  },
-  "config_version": 20,
+  "config_version": 21,
   "dark_mode": true,
   "display": {
     "bed_mesh_render_mode": 0,
@@ -59,6 +56,9 @@
   },
   "printers": {
     "default": {
+      "appearance": {
+        "toolhead_style": 0
+      },
       "default_macros": {
         "cooldown": "SET_HEATER_TEMPERATURE HEATER=extruder TARGET=0\nSET_HEATER_TEMPERATURE HEATER=heater_bed TARGET=0",
         "load_filament": {
@@ -116,7 +116,7 @@
             "temperature_sensor btt_eddy_mcu",
             "temperature_sensor btt_eddy"
           ],
-          "timestamp": "2026-07-30T03:09:57Z"
+          "timestamp": "2026-08-01T22:10:12Z"
         },
         "optional": []
       },
