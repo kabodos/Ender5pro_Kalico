@@ -37,7 +37,7 @@
   "language": "en",
   "log_path": "/tmp/helixscreen.log",
   "motion": {
-    "jog_mode": 2
+    "jog_mode": 0
   },
   "print_start_history": {
     "entries": [
@@ -116,7 +116,7 @@
             "temperature_sensor btt_eddy_mcu",
             "temperature_sensor btt_eddy"
           ],
-          "timestamp": "2026-10-08T06:36:27Z"
+          "timestamp": "2026-10-12T17:52:49Z"
         },
         "optional": []
       },
