@@ -116,7 +116,7 @@
             "temperature_sensor btt_eddy_mcu",
             "temperature_sensor btt_eddy"
           ],
-          "timestamp": "2026-10-16T18:13:32Z"
+          "timestamp": "2026-10-16T21:52:20Z"
         },
         "optional": []
       },
@@ -487,10 +487,10 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 0.33726051449775696
+        "heat_rate": 0.42043906450271606
       },
       "heater_bed": {
-        "heat_rate": 4.9825849533081055
+        "heat_rate": 10.016927719116211
       }
     }
   },
