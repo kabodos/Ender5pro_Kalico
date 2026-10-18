@@ -114,7 +114,7 @@
             "temperature_sensor btt_eddy_mcu",
             "temperature_sensor btt_eddy"
           ],
-          "timestamp": "2026-10-18T03:54:09Z"
+          "timestamp": "2026-10-18T04:35:31Z"
         },
         "optional": []
       },
@@ -506,5 +506,7 @@
   "update": {
     "dismissed_version": "0.99.8"
   },
+  "wifi_enabled": true,
+  "wifi_expected": true,
   "wizard_completed": true
 }
