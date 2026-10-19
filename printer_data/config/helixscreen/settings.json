@@ -102,9 +102,7 @@
             "heater_fan controller_fan",
             "fan"
           ],
-          "filament_sensors": [
-            "filament_switch_sensor runout"
-          ],
+          "filament_sensors": [],
           "heaters": [
             "heater_bed",
             "extruder"
@@ -116,7 +114,7 @@
             "temperature_sensor btt_eddy_mcu",
             "temperature_sensor btt_eddy"
           ],
-          "timestamp": "2026-10-18T22:15:16Z"
+          "timestamp": "2026-10-19T04:23:30Z"
         },
         "optional": []
       },
@@ -487,10 +485,10 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 0.52592533826828
+        "heat_rate": 0.39978718757629395
       },
       "heater_bed": {
-        "heat_rate": 6.658522605895996
+        "heat_rate": 5.176499843597412
       }
     }
   },
