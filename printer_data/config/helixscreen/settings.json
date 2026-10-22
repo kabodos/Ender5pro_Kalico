@@ -110,7 +110,9 @@
             "heater_fan controller_fan",
             "fan"
           ],
-          "filament_sensors": [],
+          "filament_sensors": [
+            "filament_switch_sensor runout"
+          ],
           "heaters": [
             "heater_bed",
             "extruder"
@@ -122,7 +124,7 @@
             "temperature_sensor btt_eddy_mcu",
             "temperature_sensor btt_eddy"
           ],
-          "timestamp": "2026-10-22T21:42:45Z"
+          "timestamp": "2026-10-22T23:38:50Z"
         },
         "optional": []
       },
