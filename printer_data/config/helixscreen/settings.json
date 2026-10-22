@@ -37,7 +37,7 @@
   "language": "en",
   "log_path": "/tmp/helixscreen.log",
   "motion": {
-    "jog_mode": 0
+    "jog_mode": 2
   },
   "print_start_history": {
     "entries": [
@@ -48,9 +48,17 @@
       },
       {
         "phases": {},
-        "temp_bucket": 200,
-        "timestamp": 1775677302,
-        "total": 175
+        "timestamp": 1774572898,
+        "total": 10
+      },
+      {
+        "phases": {
+          "2": 168
+        },
+        "temp_bucket": 2,
+        "timestamp": 1792458264,
+        "total": 178,
+        "window": 1
       }
     ]
   },
@@ -114,7 +122,7 @@
             "temperature_sensor btt_eddy_mcu",
             "temperature_sensor btt_eddy"
           ],
-          "timestamp": "2026-10-19T15:23:36Z"
+          "timestamp": "2026-10-20T01:21:17Z"
         },
         "optional": []
       },
@@ -485,10 +493,10 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 0.3259192407131195
+        "heat_rate": 0.29358920454978943
       },
       "heater_bed": {
-        "heat_rate": 6.506897449493408
+        "heat_rate": 5.393969535827637
       }
     }
   },
