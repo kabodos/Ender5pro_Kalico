@@ -62,85 +62,44 @@
   "print_start_history": {
     "entries": [
       {
-        "phases": {
-          "2": 307
-        },
-        "temp_bucket": 2,
-        "timestamp": 1792930628,
-        "total": 367,
-        "window": 1
+        "phases": {},
+        "timestamp": 1774572898,
+        "total": 10
       },
       {
-        "phases": {
-          "2": 266
-        },
-        "temp_bucket": 2,
-        "timestamp": 1792953363,
-        "total": 316,
-        "window": 1
+        "phases": {},
+        "timestamp": 1774572898,
+        "total": 10
       },
       {
-        "phases": {
-          "2": 239
-        },
-        "temp_bucket": 2,
-        "timestamp": 1792958043,
-        "total": 305,
-        "window": 1
+        "phases": {},
+        "timestamp": 1774572898,
+        "total": 10
       },
       {
-        "phases": {
-          "2": 252
-        },
-        "temp_bucket": 2,
-        "timestamp": 1792980191,
-        "total": 328,
-        "window": 1
+        "phases": {},
+        "timestamp": 1774572898,
+        "total": 10
       },
       {
-        "phases": {
-          "2": 185
-        },
-        "temp_bucket": 2,
-        "timestamp": 1793002720,
-        "total": 252,
-        "window": 1
+        "phases": {},
+        "timestamp": 1774572898,
+        "total": 10
       },
       {
-        "phases": {
-          "2": 357
-        },
-        "temp_bucket": 2,
-        "timestamp": 1793005065,
-        "total": 450,
-        "window": 1
+        "phases": {},
+        "timestamp": 1774572898,
+        "total": 10
       },
       {
-        "phases": {
-          "2": 281
-        },
-        "temp_bucket": 2,
-        "timestamp": 1793007239,
-        "total": 336,
-        "window": 1
+        "phases": {},
+        "timestamp": 1774572898,
+        "total": 10
       },
       {
-        "phases": {
-          "2": 284
-        },
-        "temp_bucket": 2,
-        "timestamp": 1793034211,
-        "total": 349,
-        "window": 1
-      },
-      {
-        "phases": {
-          "2": 295
-        },
-        "temp_bucket": 2,
-        "timestamp": 1793040002,
-        "total": 360,
-        "window": 1
+        "phases": {},
+        "timestamp": 1774572898,
+        "total": 10
       },
       {
         "phases": {},
@@ -169,11 +128,20 @@
       },
       {
         "phases": {
-          "2": 197
+          "2": 208
         },
         "temp_bucket": 1,
-        "timestamp": 1793056526,
-        "total": 457,
+        "timestamp": 1793253840,
+        "total": 477,
+        "window": 1
+      },
+      {
+        "phases": {
+          "2": 203
+        },
+        "temp_bucket": 1,
+        "timestamp": 1793266276,
+        "total": 474,
         "window": 1
       }
     ]
@@ -240,7 +208,7 @@
             "temperature_sensor btt_eddy_mcu",
             "temperature_sensor btt_eddy"
           ],
-          "timestamp": "2026-10-27T03:53:36Z"
+          "timestamp": "2026-10-29T07:29:09Z"
         },
         "optional": []
       },
@@ -612,10 +580,10 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 0.23872658610343933
+        "heat_rate": 0.23797228932380676
       },
       "heater_bed": {
-        "heat_rate": 5.231491565704346
+        "heat_rate": 4.297791481018066
       }
     }
   },
