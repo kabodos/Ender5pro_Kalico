@@ -117,16 +117,6 @@
         "total": 10
       },
       {
-        "phases": {},
-        "timestamp": 1774572898,
-        "total": 10
-      },
-      {
-        "phases": {},
-        "timestamp": 1774572898,
-        "total": 10
-      },
-      {
         "phases": {
           "2": 208
         },
@@ -142,6 +132,24 @@
         "temp_bucket": 1,
         "timestamp": 1793266276,
         "total": 474,
+        "window": 1
+      },
+      {
+        "phases": {
+          "2": 216
+        },
+        "temp_bucket": 1,
+        "timestamp": 1793320041,
+        "total": 482,
+        "window": 1
+      },
+      {
+        "phases": {
+          "2": 198
+        },
+        "temp_bucket": 1,
+        "timestamp": 1793322738,
+        "total": 438,
         "window": 1
       }
     ]
@@ -208,7 +216,7 @@
             "temperature_sensor btt_eddy_mcu",
             "temperature_sensor btt_eddy"
           ],
-          "timestamp": "2026-10-29T07:29:09Z"
+          "timestamp": "2026-10-29T18:24:06Z"
         },
         "optional": []
       },
@@ -580,10 +588,10 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 0.23797228932380676
+        "heat_rate": 0.460568368434906
       },
       "heater_bed": {
-        "heat_rate": 4.297791481018066
+        "heat_rate": 4.183669567108154
       }
     }
   },
