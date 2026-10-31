@@ -1,1 +1,16 @@
-[]
+{
+  "filaments": [
+    {
+      "bed": 55,
+      "brand": "joaquin",
+      "density": 1.2400000095367432,
+      "id": "joaquin-x",
+      "name": "x",
+      "nozzle": 205,
+      "nozzle_max": 220,
+      "nozzle_min": 190,
+      "source": "user",
+      "type": "PLA"
+    }
+  ]
+}

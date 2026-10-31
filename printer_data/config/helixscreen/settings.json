@@ -43,10 +43,10 @@
   "preset_materials": [
     {
       "bed": 55,
-      "brand": "Generic",
-      "filament_id": "generic-pla",
-      "name": "PLA",
-      "nozzle": 220,
+      "brand": "joaquin",
+      "filament_id": "joaquin-x",
+      "name": "x",
+      "nozzle": 205,
       "type": "PLA"
     },
     {
@@ -208,7 +208,7 @@
             "temperature_sensor btt_eddy_mcu",
             "temperature_sensor btt_eddy"
           ],
-          "timestamp": "2026-10-31T04:02:48Z"
+          "timestamp": "2026-10-31T04:47:03Z"
         },
         "optional": []
       },
