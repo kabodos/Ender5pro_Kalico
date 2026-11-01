@@ -82,66 +82,70 @@
         "total": 10
       },
       {
+        "phases": {},
+        "timestamp": 1774572898,
+        "total": 10
+      },
+      {
+        "phases": {},
+        "timestamp": 1774572898,
+        "total": 10
+      },
+      {
+        "phases": {},
+        "timestamp": 1774572898,
+        "total": 10
+      },
+      {
+        "phases": {},
+        "timestamp": 1774572898,
+        "total": 10
+      },
+      {
+        "phases": {},
+        "timestamp": 1774572898,
+        "total": 10
+      },
+      {
+        "phases": {},
+        "timestamp": 1774572898,
+        "total": 10
+      },
+      {
+        "phases": {},
+        "timestamp": 1774572898,
+        "total": 10
+      },
+      {
+        "phases": {},
+        "timestamp": 1774572898,
+        "total": 10
+      },
+      {
+        "phases": {
+          "2": 230
+        },
+        "temp_bucket": 2,
+        "timestamp": 1793519146,
+        "total": 285,
+        "window": 1
+      },
+      {
+        "phases": {
+          "2": 198
+        },
+        "temp_bucket": 2,
+        "timestamp": 1793536863,
+        "total": 299,
+        "window": 1
+      },
+      {
         "phases": {
           "2": 217
         },
         "temp_bucket": 2,
-        "timestamp": 1793401347,
+        "timestamp": 1793538828,
         "total": 272,
-        "window": 1
-      },
-      {
-        "phases": {},
-        "timestamp": 1774572898,
-        "total": 10
-      },
-      {
-        "phases": {},
-        "timestamp": 1774572898,
-        "total": 10
-      },
-      {
-        "phases": {},
-        "timestamp": 1774572898,
-        "total": 10
-      },
-      {
-        "phases": {},
-        "timestamp": 1774572898,
-        "total": 10
-      },
-      {
-        "phases": {},
-        "timestamp": 1774572898,
-        "total": 10
-      },
-      {
-        "phases": {},
-        "timestamp": 1774572898,
-        "total": 10
-      },
-      {
-        "phases": {},
-        "timestamp": 1774572898,
-        "total": 10
-      },
-      {
-        "phases": {},
-        "timestamp": 1774572898,
-        "total": 10
-      },
-      {
-        "phases": {},
-        "timestamp": 1774572898,
-        "total": 10
-      },
-      {
-        "phases": {
-          "2": 247
-        },
-        "temp_bucket": 1,
-        "timestamp": 1793416159,
-        "total": 528,
         "window": 1
       }
     ]
@@ -208,7 +212,7 @@
             "temperature_sensor btt_eddy_mcu",
             "temperature_sensor btt_eddy"
           ],
-          "timestamp": "2026-10-31T07:15:15Z"
+          "timestamp": "2026-11-01T07:22:29Z"
         },
         "optional": []
       },
@@ -580,10 +584,10 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 0.5111982226371765
+        "heat_rate": 0.4255012273788452
       },
       "heater_bed": {
-        "heat_rate": 4.223248481750488
+        "heat_rate": 4.0894551277160645
       }
     }
   },
