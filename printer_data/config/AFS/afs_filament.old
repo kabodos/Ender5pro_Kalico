@@ -1,0 +1,175 @@
+#####################################################################
+# Apollo Filament Suite - Filament Core
+# Version: 0.1.0
+#
+# Hardware:
+# - Ender 5 Pro
+# - Apollo Lander
+# - HGX Lite
+# - Hotend V6 Cerámico
+# - Kalico / HelixScreen
+#
+#####################################################################
+
+
+#####################################################################
+# SENSOR OFF
+#####################################################################
+
+[gcode_macro SENSOR_FILAMENTO_OFF]
+gcode:
+    SET_FILAMENT_SENSOR SENSOR=runout ENABLE=0
+
+
+#####################################################################
+# SENSOR ON
+#####################################################################
+
+[gcode_macro SENSOR_FILAMENTO_ON]
+gcode:
+    G4 P1000
+    SET_FILAMENT_SENSOR SENSOR=runout ENABLE=1
+
+
+#####################################################################
+# LOAD_FILAMENT
+#####################################################################
+
+[gcode_macro LOAD_FILAMENT]
+description: Carga manual de filamento
+
+gcode:
+    # SENSOR_FILAMENTO_OFF
+
+    ACTIVAR_PARPADEO_CARGA
+
+    {% if not printer.extruder.can_extrude %}
+        { action_raise_error("El hotend no está suficientemente caliente.") }
+    {% endif %}
+
+    SAVE_GCODE_STATE NAME=load_state
+
+    G91
+    G92 E0
+
+    # Carga rápida
+    G1 E75 F600
+
+    # Esperar un momento
+    G4 P300
+
+    # Entrada lenta al hotend
+    G1 E20 F300
+
+    # Esperar estabilización
+    G4 P500
+
+    # Purga
+    G1 E5 F180
+
+    # Esperar
+    G4 P300
+
+    # Liberar presión
+    G1 E-0.6 F600
+
+    RESTORE_GCODE_STATE NAME=load_state
+
+    DESACTIVAR_PARPADEO
+    LUCES_IMPRIMIENDO
+
+    # SENSOR_FILAMENTO_ON
+
+    M117 Filamento cargado
+
+
+#####################################################################
+# CUT_FILAMENT
+#####################################################################
+
+[gcode_macro CUT_FILAMENT]
+description: Va al cortador, corta y retrae 2 mm
+
+gcode:
+    {% if "xyz" not in printer.toolhead.homed_axes %}
+        { action_raise_error("Primero ejecuta G28 para referenciar X, Y y Z") }
+    {% endif %}
+
+    {% set x0 = printer.toolhead.position.x|float %}
+    {% set y0 = printer.toolhead.position.y|float %}
+    {% set z0 = printer.toolhead.position.z|float %}
+    {% set max_z = printer.toolhead.axis_maximum.z|float %}
+    {% set z_lift = [5.0, [0.0, max_z - z0]|max]|min %}
+
+    SAVE_GCODE_STATE NAME=CUT_FILAMENT_STATE
+    G90
+    M83
+
+    # Elevar el cabezal hasta 5 mm, sin superar el máximo de Z
+    G91
+    G1 Z{z_lift} F600
+    G90
+
+    # Ir al cortador
+    G1 Y1 F6000
+    G1 X221 F3000
+
+    # Retraer 2 mm y empujar la cuchilla hasta completar el corte
+    G1 E-2 F1800
+    G1 X232 F600
+    G1 X221 F3000
+
+    # Regresar a la posición original
+    G1 X{x0} Y{y0} F6000
+    G1 Z{z0} F600
+
+    RESTORE_GCODE_STATE NAME=CUT_FILAMENT_STATE
+
+
+#####################################################################
+# UNLOAD_FILAMENT
+#####################################################################
+
+[gcode_macro UNLOAD_FILAMENT]
+description: Corta y descarga el filamento
+
+gcode:
+    RESPOND TYPE=echo MSG=">>> INICIO UNLOAD <<<"
+
+    {% if not printer.extruder.can_extrude %}
+        { action_raise_error("El hotend no está suficientemente caliente.") }
+    {% endif %}
+
+    # LEDs
+    SET_LED_TEMPLATE LED=luces_cabezal TEMPLATE=led_parpadeo_descarga
+
+    SAVE_GCODE_STATE NAME=unload_state
+
+    G91
+    G92 E0
+
+    # Compactar ligeramente la punta
+    G1 E3 F180
+
+    # Esperar estabilización
+    G4 P600
+
+    # Cortar una vez
+    CUT_FILAMENT
+
+    # Descargar el filamento
+    G1 E-78 F3000
+    G1 E-22 F900
+    G1 E-3 F300
+
+    # Espera final
+    G4 P200
+
+    RESTORE_GCODE_STATE NAME=unload_state
+
+    # LEDs
+    SET_LED_TEMPLATE LED=luces_cabezal TEMPLATE=
+    LUCES_OFF
+
+    RESPOND TYPE=echo MSG=">>> FIN UNLOAD <<<"
+    M117 Filamento descargado
