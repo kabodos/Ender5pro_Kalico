@@ -10,9 +10,9 @@
     "gcode_render_mode": 0,
     "glass_probe": {
       "board": "drm/4c/4800bm/1024x600/32bpp",
-      "frame_ms": 16.5844,
+      "frame_ms": 16.275408,
       "passed": false,
-      "version": "1.1.0-beta.16 (eeb9332)"
+      "version": "1.1.0-beta.17 (027e9f4)"
     },
     "gpu_3d_blocked": false,
     "gpu_blur_blocked": false,
@@ -68,163 +68,168 @@
   "print_start_history": {
     "entries": [
       {
-        "phases": {},
-        "timestamp": 1774572898,
-        "total": 10
-      },
-      {
-        "heating": 179,
+        "heating": 137,
         "phases": {
-          "HOMING": 38,
-          "PURGING": 5
-        },
-        "temp_bucket": 1,
-        "timestamp": 1793608023,
-        "total": 495,
-        "window": 1
-      },
-      {
-        "heating": 195,
-        "phases": {
-          "HOMING": 16,
-          "PURGING": 5
-        },
-        "temp_bucket": 1,
-        "timestamp": 1793638319,
-        "total": 497,
-        "window": 1
-      },
-      {
-        "heating": 213,
-        "phases": {
-          "HOMING": 16,
-          "PURGING": 5
-        },
-        "temp_bucket": 1,
-        "timestamp": 1793692146,
-        "total": 492,
-        "window": 1
-      },
-      {
-        "heating": 42,
-        "phases": {
-          "HOMING": 43,
+          "HOMING": 35,
           "PURGING": 5
         },
         "temp_bucket": 2,
-        "timestamp": 1793857374,
-        "total": 264,
+        "timestamp": 1793986735,
+        "total": 303,
+        "window": 1
+      },
+      {
+        "heating": 3,
+        "phases": {
+          "HOMING": 48,
+          "PURGING": 5
+        },
+        "temp_bucket": 2,
+        "timestamp": 1794009411,
+        "total": 263,
+        "window": 1
+      },
+      {
+        "heating": 81,
+        "phases": {
+          "PURGING": 5
+        },
+        "temp_bucket": 2,
+        "timestamp": 1794021795,
+        "total": 255,
         "window": 1
       },
       {
         "heating": 174,
         "phases": {
-          "HOMING": 39,
+          "HOMING": 14,
+          "PURGING": 5
+        },
+        "temp_bucket": 2,
+        "timestamp": 1794028483,
+        "total": 311,
+        "window": 1
+      },
+      {
+        "heating": 198,
+        "phases": {
+          "HOMING": 50,
           "PURGING": 5
         },
         "temp_bucket": 1,
-        "timestamp": 1793862342,
-        "total": 411,
+        "timestamp": 1794042257,
+        "total": 492,
         "window": 1
       },
       {
-        "heating": 23,
-        "phases": {
-          "HOMING": 42,
-          "PURGING": 5
-        },
-        "skipped": [],
-        "temp_bucket": 2,
-        "timestamp": 1793863706,
-        "total": 239,
-        "window": 1
-      },
-      {
-        "heating": 135,
+        "heating": 151,
         "phases": {
           "HOMING": 14,
           "PURGING": 5
         },
         "temp_bucket": 2,
-        "timestamp": 1793864309,
-        "total": 321,
+        "timestamp": 1794045105,
+        "total": 323,
         "window": 1
       },
       {
-        "heating": 111,
-        "phases": {
-          "HOMING": 45,
-          "PURGING": 5
-        },
-        "temp_bucket": 2,
-        "timestamp": 1793865542,
-        "total": 334,
-        "window": 1
-      },
-      {
-        "heating": 51,
-        "phases": {
-          "HOMING": 44,
-          "PURGING": 5
-        },
-        "skipped": [],
-        "temp_bucket": 2,
-        "timestamp": 1793868906,
-        "total": 272,
-        "window": 1
-      },
-      {
-        "heating": 76,
+        "heating": 152,
         "phases": {
           "HOMING": 14,
           "PURGING": 5
         },
         "temp_bucket": 2,
-        "timestamp": 1793872374,
-        "total": 306,
-        "window": 1
-      },
-      {
-        "heating": 66,
-        "phases": {
-          "PURGING": 5
-        },
-        "temp_bucket": 2,
-        "timestamp": 1793896719,
+        "timestamp": 1794045819,
         "total": 312,
         "window": 1
       },
       {
-        "heating": 115,
+        "heating": 227,
         "phases": {
-          "HOMING": 33,
+          "HOMING": 16,
           "PURGING": 5
         },
-        "temp_bucket": 2,
-        "timestamp": 1793899565,
-        "total": 359,
+        "temp_bucket": 1,
+        "timestamp": 1794075848,
+        "total": 501,
         "window": 1
       },
       {
-        "heating": 101,
+        "heating": 165,
         "phases": {
           "HOMING": 14,
           "PURGING": 5
         },
         "temp_bucket": 2,
-        "timestamp": 1793902220,
-        "total": 338,
+        "timestamp": 1794076640,
+        "total": 334,
         "window": 1
       },
       {
-        "heating": 70,
+        "heating": 223,
         "phases": {
-          "HOMING": 9,
+          "HOMING": 16,
+          "PURGING": 5
+        },
+        "skipped": [],
+        "temp_bucket": 1,
+        "timestamp": 1794082182,
+        "total": 499,
+        "window": 1
+      },
+      {
+        "heating": 200,
+        "phases": {
+          "HOMING": 36,
+          "PURGING": 5
+        },
+        "temp_bucket": 1,
+        "timestamp": 1794085297,
+        "total": 502,
+        "window": 1
+      },
+      {
+        "heating": 217,
+        "phases": {
+          "HOMING": 16,
+          "PURGING": 4
+        },
+        "temp_bucket": 1,
+        "timestamp": 1794124255,
+        "total": 488,
+        "window": 1
+      },
+      {
+        "heating": 198,
+        "phases": {
+          "HOMING": 35,
+          "PURGING": 5
+        },
+        "temp_bucket": 1,
+        "timestamp": 1794126144,
+        "total": 477,
+        "window": 1
+      },
+      {
+        "heating": 166,
+        "phases": {
+          "HOMING": 14,
           "PURGING": 5
         },
         "temp_bucket": 2,
-        "timestamp": 1793910686,
-        "total": 255,
+        "timestamp": 1794130442,
+        "total": 379,
+        "window": 1
+      },
+      {
+        "heating": 204,
+        "phases": {
+          "HOMING": 36,
+          "PURGING": 5
+        },
+        "temp_bucket": 1,
+        "timestamp": 1794137672,
+        "total": 489,
         "window": 1
       }
     ]
@@ -235,8 +240,8 @@
         "toolhead_style": 0
       },
       "bed_occupancy": {
-        "last_occupied": "{\"filename\":\"schiaccianoci_PLA_6h45m.gcode\",\"job_id\":\"000183\",\"object_height\":49.0,\"start_time\":1793910431.4703085}",
-        "outlines": "{\"filename\":\"schiaccianoci_PLA_6h45m.gcode\",\"objects\":[[[48.6,88.5],[96.5,88.5],[96.5,135.7],[48.6,135.7]],[[49.2,17.2],[96.5,17.2],[96.5,64.5],[49.2,64.5]],[[120.2,23.7],[167.5,23.7],[167.5,70.9],[120.2,70.9]],[[119.6,159.5],[184.4,159.5],[184.4,200.8],[119.6,200.8]],[[119.6,94.8],[184.4,94.8],[184.4,136.1],[119.6,136.1]],[[41.6,159.5],[106.4,159.5],[106.4,200.8],[41.6,200.8]]]}"
+        "last_occupied": "{\"filename\":\"snowman - ender5_PLA_42m39s.gcode\",\"job_id\":\"000199\",\"object_height\":33.64,\"start_time\":1794137182.9266376}",
+        "outlines": "{\"filename\":\"snowman - ender5_PLA_42m39s.gcode\",\"objects\":[[[83.7,82.6],[142.3,82.6],[142.3,135.4],[83.7,135.4]]]}"
       },
       "default_macros": {
         "cooldown": "SET_HEATER_TEMPERATURE HEATER=extruder TARGET=0\nSET_HEATER_TEMPERATURE HEATER=heater_bed TARGET=0",
@@ -295,7 +300,7 @@
             "temperature_sensor btt_eddy_mcu",
             "temperature_sensor btt_eddy"
           ],
-          "timestamp": "2026-11-06T01:52:13Z"
+          "timestamp": "2026-11-07T20:46:49Z"
         },
         "optional": []
       },
@@ -336,20 +341,20 @@
           "filter": {
             "interval_h": 200,
             "notified": false,
-            "used_h": 31.578888888918332
+            "used_h": 59.91944444421185
           },
           "nozzle": {
             "interval_h": 500,
             "notified": false,
-            "used_h": 31.578888888918332
+            "used_h": 59.91944444421185
           },
           "rails": {
             "interval_h": 300,
             "notified": false,
-            "used_h": 31.578888888918332
+            "used_h": 59.91944444421185
           }
         },
-        "total_h": 31.578888888918332
+        "total_h": 59.91944444421185
       },
       "moonraker_api_key": false,
       "moonraker_host": "127.0.0.1",
@@ -700,10 +705,10 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 0.44786638021469116
+        "heat_rate": 0.39389723539352417
       },
       "heater_bed": {
-        "heat_rate": 5.085822105407715
+        "heat_rate": 4.214179992675781
       }
     }
   },
@@ -724,7 +729,7 @@
     "dismissed_version": "0.99.8",
     "moonraker_channel": "beta"
   },
-  "wifi_enabled": true,
-  "wifi_expected": true,
+  "wifi_enabled": false,
+  "wifi_expected": false,
   "wizard_completed": true
 }
