@@ -68,60 +68,6 @@
   "print_start_history": {
     "entries": [
       {
-        "heating": 137,
-        "phases": {
-          "HOMING": 35,
-          "PURGING": 5
-        },
-        "temp_bucket": 2,
-        "timestamp": 1793986735,
-        "total": 303,
-        "window": 1
-      },
-      {
-        "heating": 3,
-        "phases": {
-          "HOMING": 48,
-          "PURGING": 5
-        },
-        "temp_bucket": 2,
-        "timestamp": 1794009411,
-        "total": 263,
-        "window": 1
-      },
-      {
-        "heating": 81,
-        "phases": {
-          "PURGING": 5
-        },
-        "temp_bucket": 2,
-        "timestamp": 1794021795,
-        "total": 255,
-        "window": 1
-      },
-      {
-        "heating": 174,
-        "phases": {
-          "HOMING": 14,
-          "PURGING": 5
-        },
-        "temp_bucket": 2,
-        "timestamp": 1794028483,
-        "total": 311,
-        "window": 1
-      },
-      {
-        "heating": 198,
-        "phases": {
-          "HOMING": 50,
-          "PURGING": 5
-        },
-        "temp_bucket": 1,
-        "timestamp": 1794042257,
-        "total": 492,
-        "window": 1
-      },
-      {
         "heating": 151,
         "phases": {
           "HOMING": 14,
@@ -231,6 +177,59 @@
         "timestamp": 1794137672,
         "total": 489,
         "window": 1
+      },
+      {
+        "heating": 216,
+        "phases": {
+          "HOMING": 16,
+          "PURGING": 7
+        },
+        "temp_bucket": 1,
+        "timestamp": 1794164974,
+        "total": 473,
+        "window": 1
+      },
+      {
+        "heating": 209,
+        "phases": {
+          "HOMING": 16,
+          "PURGING": 5
+        },
+        "temp_bucket": 1,
+        "timestamp": 1794171126,
+        "total": 472,
+        "window": 1
+      },
+      {
+        "heating": 37,
+        "phases": {
+          "PURGING": 5
+        },
+        "temp_bucket": 2,
+        "timestamp": 1794174806,
+        "total": 285,
+        "window": 1
+      },
+      {
+        "heating": 49,
+        "phases": {
+          "PURGING": 5
+        },
+        "temp_bucket": 2,
+        "timestamp": 1794178343,
+        "total": 304,
+        "window": 1
+      },
+      {
+        "heating": 209,
+        "phases": {
+          "HOMING": 43,
+          "PURGING": 5
+        },
+        "temp_bucket": 1,
+        "timestamp": 1794191685,
+        "total": 476,
+        "window": 1
       }
     ]
   },
@@ -240,8 +239,8 @@
         "toolhead_style": 0
       },
       "bed_occupancy": {
-        "last_occupied": "{\"filename\":\"snowman - ender5_PLA_42m39s.gcode\",\"job_id\":\"000199\",\"object_height\":33.64,\"start_time\":1794137182.9266376}",
-        "outlines": "{\"filename\":\"snowman - ender5_PLA_42m39s.gcode\",\"objects\":[[[83.7,82.6],[142.3,82.6],[142.3,135.4],[83.7,135.4]]]}"
+        "last_occupied": "{\"filename\":\"snowman - ender5_PLA_4h41m.gcode\",\"job_id\":\"00019F\",\"object_height\":133.04,\"start_time\":1794191208.5626924}",
+        "outlines": "{\"filename\":\"snowman - ender5_PLA_4h41m.gcode\",\"objects\":[[[72.7,68.7],[153.3,68.7],[153.3,149.3],[72.7,149.3]]]}"
       },
       "default_macros": {
         "cooldown": "SET_HEATER_TEMPERATURE HEATER=extruder TARGET=0\nSET_HEATER_TEMPERATURE HEATER=heater_bed TARGET=0",
@@ -300,7 +299,7 @@
             "temperature_sensor btt_eddy_mcu",
             "temperature_sensor btt_eddy"
           ],
-          "timestamp": "2026-11-07T20:46:49Z"
+          "timestamp": "2026-11-09T00:17:38Z"
         },
         "optional": []
       },
@@ -341,20 +340,20 @@
           "filter": {
             "interval_h": 200,
             "notified": false,
-            "used_h": 59.91944444421185
+            "used_h": 68.3316666664655
           },
           "nozzle": {
             "interval_h": 500,
             "notified": false,
-            "used_h": 59.91944444421185
+            "used_h": 68.3316666664655
           },
           "rails": {
             "interval_h": 300,
             "notified": false,
-            "used_h": 59.91944444421185
+            "used_h": 68.3316666664655
           }
         },
-        "total_h": 59.91944444421185
+        "total_h": 68.3316666664655
       },
       "moonraker_api_key": false,
       "moonraker_host": "127.0.0.1",
@@ -705,10 +704,10 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 0.39389723539352417
+        "heat_rate": 0.391595721244812
       },
       "heater_bed": {
-        "heat_rate": 4.214179992675781
+        "heat_rate": 4.105413436889648
       }
     }
   },
