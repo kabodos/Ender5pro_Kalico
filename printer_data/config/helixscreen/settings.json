@@ -68,50 +68,6 @@
   "print_start_history": {
     "entries": [
       {
-        "heating": 151,
-        "phases": {
-          "HOMING": 14,
-          "PURGING": 5
-        },
-        "temp_bucket": 2,
-        "timestamp": 1794045105,
-        "total": 323,
-        "window": 1
-      },
-      {
-        "heating": 152,
-        "phases": {
-          "HOMING": 14,
-          "PURGING": 5
-        },
-        "temp_bucket": 2,
-        "timestamp": 1794045819,
-        "total": 312,
-        "window": 1
-      },
-      {
-        "heating": 227,
-        "phases": {
-          "HOMING": 16,
-          "PURGING": 5
-        },
-        "temp_bucket": 1,
-        "timestamp": 1794075848,
-        "total": 501,
-        "window": 1
-      },
-      {
-        "heating": 165,
-        "phases": {
-          "HOMING": 14,
-          "PURGING": 5
-        },
-        "temp_bucket": 2,
-        "timestamp": 1794076640,
-        "total": 334,
-        "window": 1
-      },
-      {
         "heating": 223,
         "phases": {
           "HOMING": 16,
@@ -230,6 +186,50 @@
         "timestamp": 1794191685,
         "total": 476,
         "window": 1
+      },
+      {
+        "heating": 231,
+        "phases": {
+          "HOMING": 14,
+          "PURGING": 5
+        },
+        "temp_bucket": 2,
+        "timestamp": 1794280174,
+        "total": 398,
+        "window": 1
+      },
+      {
+        "heating": 220,
+        "phases": {
+          "HOMING": 44,
+          "PURGING": 5
+        },
+        "temp_bucket": 1,
+        "timestamp": 1794302759,
+        "total": 757,
+        "window": 1
+      },
+      {
+        "heating": 85,
+        "phases": {
+          "HOMING": 43,
+          "PURGING": 5
+        },
+        "temp_bucket": 2,
+        "timestamp": 1794352463,
+        "total": 289,
+        "window": 1
+      },
+      {
+        "heating": 83,
+        "phases": {
+          "HOMING": 14,
+          "PURGING": 5
+        },
+        "temp_bucket": 2,
+        "timestamp": 1794357053,
+        "total": 350,
+        "window": 1
       }
     ]
   },
@@ -239,8 +239,8 @@
         "toolhead_style": 0
       },
       "bed_occupancy": {
-        "last_occupied": "{\"filename\":\"snowman - ender5_PLA_4h41m.gcode\",\"job_id\":\"00019F\",\"object_height\":133.04,\"start_time\":1794191208.5626924}",
-        "outlines": "{\"filename\":\"snowman - ender5_PLA_4h41m.gcode\",\"objects\":[[[72.7,68.7],[153.3,68.7],[153.3,149.3],[72.7,149.3]]]}"
+        "last_occupied": "{\"filename\":\"Ornament1_PETG_3h50m.gcode\",\"job_id\":\"0001A4\",\"object_height\":39.08,\"start_time\":1794361475.220424}",
+        "outlines": "{\"filename\":\"spool propio_PETG_52m29s.gcode\",\"objects\":[[[125.0,121.0],[141.0,121.0],[141.0,137.0],[125.0,137.0]],[[85.0,121.0],[101.0,121.0],[101.0,137.0],[85.0,137.0]],[[125.0,81.0],[141.0,81.0],[141.0,97.0],[125.0,97.0]],[[85.0,81.0],[101.0,81.0],[101.0,97.0],[85.0,97.0]]]}"
       },
       "default_macros": {
         "cooldown": "SET_HEATER_TEMPERATURE HEATER=extruder TARGET=0\nSET_HEATER_TEMPERATURE HEATER=heater_bed TARGET=0",
@@ -299,7 +299,7 @@
             "temperature_sensor btt_eddy_mcu",
             "temperature_sensor btt_eddy"
           ],
-          "timestamp": "2026-11-09T00:17:38Z"
+          "timestamp": "2026-11-11T01:50:18Z"
         },
         "optional": []
       },
@@ -340,20 +340,20 @@
           "filter": {
             "interval_h": 200,
             "notified": false,
-            "used_h": 68.3316666664655
+            "used_h": 73.89916666655537
           },
           "nozzle": {
             "interval_h": 500,
             "notified": false,
-            "used_h": 68.3316666664655
+            "used_h": 73.89916666655537
           },
           "rails": {
             "interval_h": 300,
             "notified": false,
-            "used_h": 68.3316666664655
+            "used_h": 73.89916666655537
           }
         },
-        "total_h": 68.3316666664655
+        "total_h": 73.89916666655537
       },
       "moonraker_api_key": false,
       "moonraker_host": "127.0.0.1",
@@ -704,10 +704,10 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 0.391595721244812
+        "heat_rate": 0.3615235388278961
       },
       "heater_bed": {
-        "heat_rate": 4.105413436889648
+        "heat_rate": 4.220641136169434
       }
     }
   },
