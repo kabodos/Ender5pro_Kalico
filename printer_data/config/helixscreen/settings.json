@@ -1,6 +1,6 @@
 {
   "active_printer_id": "default",
-  "config_version": 33,
+  "config_version": 34,
   "dark_mode": true,
   "display": {
     "bed_mesh_render_mode": 0,
@@ -10,9 +10,9 @@
     "gcode_render_mode": 0,
     "glass_probe": {
       "board": "drm/4c/4800bm/1024x600/32bpp",
-      "frame_ms": 16.275408,
+      "frame_ms": 15.427816,
       "passed": false,
-      "version": "1.1.0-beta.17 (027e9f4)"
+      "version": "1.1.0-rc.1 (5304009)"
     },
     "gpu_3d_blocked": false,
     "gpu_blur_blocked": false,
@@ -297,7 +297,7 @@
             "temperature_sensor btt_eddy_mcu",
             "temperature_sensor btt_eddy"
           ],
-          "timestamp": "2026-11-11T02:05:42Z"
+          "timestamp": "2026-11-11T21:07:37Z"
         },
         "optional": []
       },
@@ -711,7 +711,7 @@
   },
   "tour": {
     "completed": true,
-    "last_seen_version": 1
+    "last_seen_version": 2
   },
   "ui": {
     "cached_grid": {
