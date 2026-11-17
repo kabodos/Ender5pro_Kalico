@@ -10,9 +10,9 @@
     "gcode_render_mode": 0,
     "glass_probe": {
       "board": "drm/4c/4800bm/1024x600/32bpp",
-      "frame_ms": 15.427816,
+      "frame_ms": 16.607343,
       "passed": false,
-      "version": "1.1.0-rc.1 (5304009)"
+      "version": "1.1.0-rc.2 (15ac1db)"
     },
     "gpu_3d_blocked": false,
     "gpu_blur_blocked": false,
@@ -298,7 +298,7 @@
             "temperature_sensor btt_eddy_mcu",
             "temperature_sensor btt_eddy"
           ],
-          "timestamp": "2026-11-17T04:23:23Z"
+          "timestamp": "2026-11-17T16:57:24Z"
         },
         "optional": []
       },
