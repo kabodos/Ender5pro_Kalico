@@ -68,82 +68,6 @@
   "print_start_history": {
     "entries": [
       {
-        "heating": 209,
-        "phases": {
-          "HOMING": 43,
-          "PURGING": 5
-        },
-        "temp_bucket": 1,
-        "timestamp": 1794191685,
-        "total": 476,
-        "window": 1
-      },
-      {
-        "heating": 220,
-        "phases": {
-          "HOMING": 44,
-          "PURGING": 5
-        },
-        "temp_bucket": 1,
-        "timestamp": 1794302759,
-        "total": 757,
-        "window": 1
-      },
-      {
-        "heating": 83,
-        "phases": {
-          "HOMING": 14,
-          "PURGING": 5
-        },
-        "temp_bucket": 2,
-        "timestamp": 1794357053,
-        "total": 350,
-        "window": 1
-      },
-      {
-        "heating": 70,
-        "phases": {
-          "PURGING": 7
-        },
-        "temp_bucket": 2,
-        "timestamp": 1794363347,
-        "total": 345,
-        "window": 1
-      },
-      {
-        "heating": 108,
-        "phases": {
-          "HOMING": 34,
-          "PURGING": 5
-        },
-        "temp_bucket": 2,
-        "timestamp": 1794364110,
-        "total": 315,
-        "window": 1
-      },
-      {
-        "heating": 239,
-        "phases": {
-          "HOMING": 16,
-          "PURGING": 5
-        },
-        "temp_bucket": 1,
-        "timestamp": 1794367440,
-        "total": 697,
-        "window": 1
-      },
-      {
-        "heating": 74,
-        "phases": {
-          "HOMING": 35,
-          "PURGING": 5
-        },
-        "temp_bucket": 2,
-        "timestamp": 1794375887,
-        "total": 365,
-        "window": 1
-      },
-      {
         "heating": 233,
         "phases": {
           "HOMING": 16,
@@ -152,58 +76,6 @@
         "temp_bucket": 1,
         "timestamp": 1794383692,
         "total": 715,
-        "window": 1
-      },
-      {
-        "heating": 70,
-        "phases": {
-          "PURGING": 5
-        },
-        "temp_bucket": 2,
-        "timestamp": 1794451475,
-        "total": 280,
-        "window": 1
-      },
-      {
-        "heating": 49,
-        "phases": {
-          "PURGING": 5
-        },
-        "temp_bucket": 2,
-        "timestamp": 1794457139,
-        "total": 297,
-        "window": 1
-      },
-      {
-        "heating": 119,
-        "phases": {
-          "HOMING": 14,
-          "PURGING": 7
-        },
-        "temp_bucket": 2,
-        "timestamp": 1794517517,
-        "total": 280,
-        "window": 1
-      },
-      {
-        "heating": 43,
-        "phases": {
-          "HOMING": 50,
-          "PURGING": 5
-        },
-        "temp_bucket": 2,
-        "timestamp": 1794680958,
-        "total": 282,
-        "window": 1
-      },
-      {
-        "heating": 49,
-        "phases": {
-          "PURGING": 5
-        },
-        "temp_bucket": 2,
-        "timestamp": 1794682927,
-        "total": 223,
         "window": 1
       },
       {
@@ -227,6 +99,136 @@
         "timestamp": 1794702979,
         "total": 249,
         "window": 1
+      },
+      {
+        "heating": 0,
+        "phases": {
+          "HOMING": 51,
+          "PURGING": 5
+        },
+        "temp_bucket": 2,
+        "timestamp": 1794787562,
+        "total": 269,
+        "window": 1
+      },
+      {
+        "heating": 49,
+        "phases": {
+          "PURGING": 5
+        },
+        "temp_bucket": 2,
+        "timestamp": 1794794802,
+        "total": 248,
+        "window": 1
+      },
+      {
+        "heating": 27,
+        "phases": {
+          "HOMING": 46,
+          "PURGING": 5
+        },
+        "skipped": [],
+        "temp_bucket": 2,
+        "timestamp": 1794799661,
+        "total": 246,
+        "window": 1
+      },
+      {
+        "heating": 139,
+        "phases": {
+          "HOMING": 34,
+          "PURGING": 5
+        },
+        "temp_bucket": 2,
+        "timestamp": 1794803756,
+        "total": 323,
+        "window": 1
+      },
+      {
+        "heating": 214,
+        "phases": {
+          "HOMING": 16,
+          "PURGING": 5
+        },
+        "temp_bucket": 1,
+        "timestamp": 1794815288,
+        "total": 490,
+        "window": 1
+      },
+      {
+        "heating": 186,
+        "phases": {
+          "HOMING": 40,
+          "PURGING": 5
+        },
+        "temp_bucket": 1,
+        "timestamp": 1794822139,
+        "total": 434,
+        "window": 1
+      },
+      {
+        "heating": 34,
+        "phases": {
+          "PURGING": 5
+        },
+        "temp_bucket": 2,
+        "timestamp": 1794828623,
+        "total": 282,
+        "window": 1
+      },
+      {
+        "heating": 207,
+        "phases": {
+          "HOMING": 16,
+          "PURGING": 5
+        },
+        "temp_bucket": 1,
+        "timestamp": 1794851487,
+        "total": 480,
+        "window": 1
+      },
+      {
+        "heating": 29,
+        "phases": {
+          "PURGING": 5
+        },
+        "skipped": [],
+        "temp_bucket": 2,
+        "timestamp": 1794868876,
+        "total": 302,
+        "window": 1
+      },
+      {
+        "heating": 55,
+        "phases": {
+          "PURGING": 5
+        },
+        "temp_bucket": 2,
+        "timestamp": 1794890218,
+        "total": 274,
+        "window": 1
+      },
+      {
+        "heating": 24,
+        "phases": {
+          "HOMING": 48,
+          "PURGING": 5
+        },
+        "skipped": [],
+        "temp_bucket": 2,
+        "timestamp": 1794897350,
+        "total": 296,
+        "window": 1
+      },
+      {
+        "heating": 70,
+        "phases": {
+          "PURGING": 5
+        },
+        "temp_bucket": 2,
+        "timestamp": 1794908646,
+        "total": 292,
+        "window": 1
       }
     ]
   },
@@ -236,8 +238,8 @@
         "toolhead_style": 0
       },
       "bed_occupancy": {
-        "last_occupied": "{\"filename\":\"cloud clicker(with keyring)_PLA_19m48s.gcode\",\"job_id\":\"0001B0\",\"object_height\":14.1252,\"start_time\":1794702730.3180616}",
-        "outlines": "{\"filename\":\"cloud clicker(with keyring)_PLA_19m48s.gcode\",\"objects\":[[[92.0,105.1],[92.4,102.6],[93.4,100.4],[95.0,98.5],[97.0,97.2],[99.4,96.4],[113.0,94.8],[126.6,96.4],[128.9,97.1],[130.9,98.4],[132.0,99.6],[132.9,100.9],[133.8,103.2],[134.0,105.6],[133.8,107.2],[133.0,109.4],[126.0,119.9],[124.3,121.5],[122.9,122.4],[121.4,122.9],[119.0,123.3],[117.4,123.1],[104.9,120.1],[103.0,119.2],[94.7,111.7],[93.7,110.5],[92.5,108.3],[92.1,106.7],[92.0,105.1]]]}"
+        "last_occupied": "{\"filename\":\"schiaccianoci_PLA_1h32m.gcode\",\"job_id\":\"0001BD\",\"object_height\":27.4,\"start_time\":1794908353.1640954}",
+        "outlines": "{\"filename\":\"schiaccianoci_PLA_1h32m.gcode\",\"objects\":[[[83.8,102.0],[84.1,100.1],[85.1,97.6],[86.0,96.5],[87.7,95.2],[89.7,94.4],[91.5,94.2],[93.6,94.6],[95.4,95.5],[96.7,96.5],[111.2,111.0],[112.2,112.2],[113.1,114.2],[113.4,116.3],[113.0,118.5],[112.1,120.4],[111.1,121.6],[110.3,122.4],[108.8,123.1],[107.0,123.7],[105.6,123.8],[104.2,123.7],[103.0,123.3],[101.7,122.6],[100.6,121.7],[85.7,106.8],[84.9,105.7],[84.3,104.6],[83.9,103.2],[83.8,102.0]],[[98.3,61.2],[98.6,59.3],[99.6,56.8],[100.5,55.7],[102.2,54.4],[104.1,53.7],[106.0,53.4],[108.1,53.8],[109.9,54.7],[111.2,55.7],[125.6,70.2],[126.7,71.4],[127.6,73.4],[127.9,75.5],[127.5,77.7],[126.6,79.7],[125.6,80.8],[124.8,81.6],[123.3,82.3],[121.5,82.9],[120.1,83.0],[118.7,82.9],[117.5,82.5],[116.2,81.8],[115.1,80.9],[100.2,66.0],[99.4,64.9],[98.8,63.8],[98.4,62.4],[98.3,61.2]],[[56.1,120.4],[60.7,115.8],[71.4,126.5],[66.8,131.1],[56.1,120.4]],[[52.1,87.2],[62.8,76.5],[67.4,81.1],[56.7,91.8],[52.1,87.2]],[[136.6,147.0],[173.1,147.0],[173.1,175.0],[136.6,175.0]],[[76.1,147.0],[112.6,147.0],[112.6,175.0],[76.1,175.0]]]}"
       },
       "default_macros": {
         "cooldown": "SET_HEATER_TEMPERATURE HEATER=extruder TARGET=0\nSET_HEATER_TEMPERATURE HEATER=heater_bed TARGET=0",
@@ -296,7 +298,7 @@
             "temperature_sensor btt_eddy_mcu",
             "temperature_sensor btt_eddy"
           ],
-          "timestamp": "2026-11-14T18:20:26Z"
+          "timestamp": "2026-11-17T04:23:23Z"
         },
         "optional": []
       },
@@ -337,20 +339,20 @@
           "filter": {
             "interval_h": 200,
             "notified": false,
-            "used_h": 85.22000000007147
+            "used_h": 107.32194444487271
           },
           "nozzle": {
             "interval_h": 500,
             "notified": false,
-            "used_h": 85.22000000007147
+            "used_h": 107.32194444487271
           },
           "rails": {
             "interval_h": 300,
             "notified": false,
-            "used_h": 85.22000000007147
+            "used_h": 107.32194444487271
           }
         },
-        "total_h": 85.22000000007147
+        "total_h": 107.32194444487271
       },
       "moonraker_api_key": false,
       "moonraker_host": "127.0.0.1",
@@ -701,10 +703,10 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 0.37679874897003174
+        "heat_rate": 0.30279844999313354
       },
       "heater_bed": {
-        "heat_rate": 4.645515441894531
+        "heat_rate": 4.137742519378662
       }
     }
   },
