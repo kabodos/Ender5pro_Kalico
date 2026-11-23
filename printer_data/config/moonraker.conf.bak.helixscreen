@@ -57,6 +57,6 @@ primary_branch: main
 # A systemd path unit handles service restart after Moonraker extracts the update.
 [update_manager helixscreen]
 type: web
-channel: stable
+channel: beta
 repo: prestonbrown/helixscreen
 path: /home/joaquin/helixscreen
